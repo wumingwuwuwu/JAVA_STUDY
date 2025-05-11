@@ -1,0 +1,87 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>introduce.jsp</title>
+</head>
+<body>
+<table border="2" style="color:green" width="800px">
+    <h3 align="center">个人简历</h3>
+    <tr height="50">
+        <th rowspan="2">姓名</th>
+        <td rowspan="2">吴泽羽</td>
+        <th rowspan="1">年龄</th>
+        <td>20</td>
+        <th rowspan="1">身高</th>
+        <td>180</td>
+    </tr>
+    <tr height="50">
+        <th rowspan="1">文化程度</th>
+        <td>大学本科</td>
+        <th rowspan="1">政治面貌</th>
+        <td>党员</td>
+    </tr>
+    <tr height="50">
+        <th colspan="2">出生年月</th>
+        <td>2001.02.09</td>
+        <th colspan="2">籍贯</th>
+        <td>河南省信阳市</td>
+    </tr>
+    <tr height="50">
+        <th>民族</th>
+        <td>汉</td>
+        <th>专业</th>
+        <td>数据科学与大数据技术</td>
+        <th>学号</th>
+        <td>195110502009</td>
+    </tr>
+    <tr height="50">
+        <th>手机号码</th>
+        <td>18519898525</td>
+        <th colspan="2">就读院校</th>
+        <td>河北东方学院</td>
+        <th>邮编</th>
+        <td>895271</td>
+    </tr>
+    <tr height="50">
+        <th colspan="6">业余爱好</th>
+    </tr>
+    <tr height="50">
+        <td>拳击</td>
+        <td>各种球类</td>
+        <td>爬山</td>
+        <td>旅游</td>
+    </tr>
+    <tr height="50">
+        <th colspan="6">最喜欢的歌手</th>
+    </tr>
+    <tr height="100">
+        <td colspan="6" rowspan="2">个人简介</td>
+        <td>本人性格开朗，待人友好，为人诚实谦虚。工作勤奋，认真负责，能吃苦耐劳，尽职尽责。</td>
+    </tr>
+</table>
+<br>
+最喜欢的歌手：
+<form>
+    <input type="checkbox" value="zhangsan" name="lover" checked/>张三
+    <input type="checkbox" value="lisi" name="lover" checked/>李四
+    <input type="checkbox" value="wangwu" name="lover"/>王五
+</form><br>
+<br>
+所在地：
+<select name="cities" size="1">
+    <option value="shandong" selected>河南
+    <option value="beijing">北京
+    <option value="guangzhou">广州
+    <option value="hebei">河北
+</select><br>
+<br>
+性别：
+<form>
+    <input type="radio" value="male" name="sex" checked/>男
+    <input type="radio" value="female" name="sex"/>女
+</form>
+</body>
+</html>
