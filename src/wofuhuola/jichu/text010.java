@@ -1,8 +1,7 @@
 package wofuhuola.jichu;
 
 /**
- * 方法 数组
- *
+ * 方法
  */
 public class text010 {
     public static void main(String[] args) {
