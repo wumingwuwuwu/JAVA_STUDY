@@ -3,7 +3,7 @@ package wofuhuola.jichu;
 import org.w3c.dom.ls.LSOutput;
 
 /**
- * 面向对象涉及内容
+ * 面向对象
  * 面向对象思想
  * 类与对象
  * 匿名对象
