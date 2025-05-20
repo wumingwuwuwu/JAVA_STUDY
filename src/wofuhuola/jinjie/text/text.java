@@ -102,5 +102,21 @@ class Test {
         System.out.println(t2.getName()+"---"+t2.getAge());
         t2.eat();
         t2.sleep();
+
+        //对象数组
+        Student[] students = new Student[3];
+        Student s11 = new Student("小吴",23);
+        Student s22 = new Student("小王",23);
+        Student s33 = new Student("小赵",24);
+
+        students[0] = s11;
+        students[1] = s22;
+        students[2] = s33;
+        for (Student e : students) {
+            // System.out.println(students[x]);
+            System.out.println(e.getName() + "---" + e.getAge());
+        }
+
+
     }
 }
