@@ -103,11 +103,24 @@ class Student extends Person111 {
 	}
 }
 
+abstract class Animal{
+	public abstract void eat();
+}
+
 class ArgsDemo2 {
 	public static void main(String[] args) {
 		PersonDemo pd = new PersonDemo();
 		Person111 p = new Student();
 		pd.method(p);
+
+		//匿名内部类
+		Animal a = new Animal(){
+			@Override
+			public void eat() {
+				System.out.println("吃饭");
+			}
+		};
+		a.eat();
 	}
 }
 
