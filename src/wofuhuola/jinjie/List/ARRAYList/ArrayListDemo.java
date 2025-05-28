@@ -1,4 +1,4 @@
-package wofuhuola.jinjie.ARRAYList;
+package wofuhuola.jinjie.List.ARRAYList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
