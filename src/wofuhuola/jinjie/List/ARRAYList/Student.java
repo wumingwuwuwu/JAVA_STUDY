@@ -1,4 +1,4 @@
-package wofuhuola.jinjie.ARRAYList;
+package wofuhuola.jinjie.List.ARRAYList;
 
 public class Student {
     private String name;
