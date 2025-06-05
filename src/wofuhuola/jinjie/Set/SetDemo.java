@@ -1,5 +1,10 @@
 package wofuhuola.jinjie.Set;
 
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.function.Consumer;
+
 /**
  * Set集合(理解)
  * 	(1)Set集合的特点
@@ -43,5 +48,41 @@ package wofuhuola.jinjie.Set;
  * 		D:键盘录入5个学生对象，并对总分进行排序
  */
 public class SetDemo {
+    public static void main(String[] args) {
 
+
+        // 创建集合对象
+        Set<String> set = new HashSet<String>();
+
+        set.add("hello");
+        set.add("aaaa");
+        set.add("java");
+        set.add("world");
+        set.add("bbbb");
+        set.add("aaaa");
+
+//        //加强for循环
+//        for (String s : set) {
+//            System.out.println(s);
+//        }
+
+//        //迭代器
+//        Iterator<String> it = set.iterator();
+//        while (it.hasNext()){
+//            String str = it.next();
+//            System.out.println(str);
+//        }
+
+//        //lambda表达式的匿名类底层
+//        set.forEach(new Consumer<String>() {
+//            @Override
+//            public void accept(String s) {
+//                System.out.println(s);
+//            }
+//        });
+        //lambda表达式
+        set.forEach(str -> System.out.println(str));
+        set.forEach(System.out::println);
+
+    }
 }
