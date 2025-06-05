@@ -43,7 +43,7 @@ public class Person {
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        //int直接加，String判断一下null加0非null加String的哈希值
+        //int直接加， String判断一下null加0非null加String的哈希值
         result = prime * result + age;
         result = prime * result + ((name == null) ? 0 : name.hashCode());
         return result;

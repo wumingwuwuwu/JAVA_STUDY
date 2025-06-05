@@ -22,6 +22,7 @@ public class StudentDemo {
             public int compare(Student s1, Student s2) {
                 // 主要条件
                 int num = s2.getSum() - s1.getSum();
+                int i = (int)(Math.random()*101);
                 // 次要条件，依次 比较语文成绩，数学成绩，英语成绩，姓名
                 int num2 = num == 0 ? s1.getName().compareTo(s2.getName())
                         : num;
