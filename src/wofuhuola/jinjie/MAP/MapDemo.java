@@ -8,6 +8,7 @@ import java.util.Set;
 import java.util.function.BiConsumer;
 
 /**
+ * map的特性都是绑定的是key
  * 需求：我们的学生是有学号和姓名等信息的。
  * it001	林青霞
  * it002	王祖贤

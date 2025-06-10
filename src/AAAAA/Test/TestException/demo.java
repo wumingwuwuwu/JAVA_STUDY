@@ -23,7 +23,7 @@ public class demo {
         System.out.println("请输入第二个数");
         int num2 = scanner.nextInt();
         if(num2  == 0){
-            throw new Exception();
+            throw new Exception("除数不能为零");
         }else{
             System.out.println("两者之商为："+num1/num2);
         }
