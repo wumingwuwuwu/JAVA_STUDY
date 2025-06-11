@@ -22,12 +22,9 @@ public class CollectionsDemo {
         // 创建集合对象
         ArrayList<Integer> array = new ArrayList<Integer>();
 
+        Collections.addAll(array,30,20,50,10,40);
         // 添加元素
-        array.add(30);
-        array.add(20);
-        array.add(50);
-        array.add(10);
-        array.add(40);
+        
 
         System.out.println("array:" + array);
 
