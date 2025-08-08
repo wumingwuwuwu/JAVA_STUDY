@@ -2,6 +2,7 @@ package wofuhuola.jinjie.X14_File;
 
 /**
  * 文件概述
+ * File只能对文件本身进行操作，对文件的内容操作不了
  */
 public class FileDemo {
     public static void main(String[] args) {
